@@ -27,7 +27,7 @@ quyền theo dõi và quản lý dự án cho nhà đầu tư, giảm thiểu r�
 nền tảng tài trợ đám đông hiện nay.
 
 # SCREENSHOT DEMO
-
+![alt]([http://~](https://github.com/longhoangcoder/crowdfunding_blockchain/blob/a2d5ef6c04bb5c137926215e956b3124157ae881/demo/1.png))
 # INGREDIENTS
 * *ReactJS*
 * *Solidity*
