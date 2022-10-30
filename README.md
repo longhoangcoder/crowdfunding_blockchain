@@ -26,7 +26,7 @@ các spending request trước khi tiền từ dự án được tiêu. Dự án
 quyền theo dõi và quản lý dự án cho nhà đầu tư, giảm thiểu rủi ro trong các
 nền tảng tài trợ đám đông hiện nay.
 
-# SCREENSHOT DEMO![](demo/1.png)![](demo/1.png)![](demo/3.png)![](demo/4.png)
+# SCREENSHOT DEMO![](demo/1.png)![](demo/3.png)![](demo/4.png)
 # INGREDIENTS
 * *ReactJS*
 * *Solidity*
