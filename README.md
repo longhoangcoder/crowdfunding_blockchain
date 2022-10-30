@@ -27,8 +27,12 @@ quyền theo dõi và quản lý dự án cho nhà đầu tư, giảm thiểu r�
 nền tảng tài trợ đám đông hiện nay.
 
 # SCREENSHOT DEMO
+
 # INGREDIENTS
-# BUILDING RECIPE
+* *ReactJS*
+* *Solidity*
+* *Ethereum Smart Contract*
+# BUILDING RECIPES
 ### Cài đặt GIT
 Vào trang chủ [Git](https://git-scm.com/) và cài đặt
 ### Cài đặt Node và NPM
@@ -42,19 +46,22 @@ Vào trang chủ [Node](http://~) và cài đặt
 ## Chạy website
 1. Tại folder crowdfunding_blockchain, nhập vào terminal `cd ethereum`, sau đó chạy file `compile.js` bằng cách nhập `node compile.js`
 >Compile.js để compile các contract và
-lưu vào thư mục build trong folder Ethereum (gồm các chức năng chính
-cho mỗi lần compile mới như delete file build nếu đã có từ trước, đọc file
-Campaign.sol, compile các contract bằng solidity complie trong file
-Campaign.sol và viết các output vào folder build).
+lưu vào thư mục build trong folder Ethereum (gồm các chức năng chính cho mỗi lần compile mới như delete file build nếu đã có từ trước, đọc file Campaign.sol, compile các contract bằng solidity complie trong file Campaign.sol và viết các output vào folder build).
 2. Sau khi file build đã tạo thành công tại thư mục ethereum, cũng tại thư mục đó, ta chạy file `deploy.js`
->>File deploy.js để deploy CampaignFactory.json đã được
-compile (update compiledFactory.interface từ một account address). Sau đó deploy contract lên Rinkeby testnet (read CampaignFactory.json từ
-local)
+>File deploy.js để deploy CampaignFactory.json đã được compile (update compiledFactory.interface từ một account address). Sau đó deploy contract lên Goerli testnet (read CampaignFactory.json từ local)
 **Lưu ý:** Ở đây nhóm em sử dụng Goerli ETH để demo. Ở hàm provider, ta phải insert mã mnemonic ví Meta của mình và Endpoint link (có thể lấy từ trang web [Infura](https://docs.infura.io/infura/getting-started))
 3. Sau khi deploy thành công thì ta sẽ có một cái địa chỉ contract, dán địa chỉ đó vào trong file `factory.js` như thế này:
-```
+```js
 const instance = new web3.eth.Contract(
    CampaignFactory.abi,
     //contract address
 )
 ``` 
+4. Tại `web3.js` ta paste link endpoint (line 13)
+```js
+  const provider = new Web3.providers.HttpProvider(
+    '//endpoint link'
+  );
+```
+5. Trở về lại thư mục gốc, gõ `npm run start` hoặc `node server.js`
+
