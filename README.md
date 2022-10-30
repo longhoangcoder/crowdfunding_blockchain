@@ -27,7 +27,6 @@ quyền theo dõi và quản lý dự án cho nhà đầu tư, giảm thiểu r�
 nền tảng tài trợ đám đông hiện nay.
 
 # SCREENSHOT DEMO
-![alt]([https://user-images.githubusercontent.com/101177931/198891135-d034edf2-4d3c-4ef4-a10f-dd146b9304fb.png])
 # INGREDIENTS
 * *ReactJS*
 * *Solidity*
