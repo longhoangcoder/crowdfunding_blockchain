@@ -31,7 +31,7 @@ nền tảng tài trợ đám đông hiện nay.
 * *ReactJS*
 * *Solidity*
 * *Ethereum Smart Contract*
-# BUILDING RECIPES
+# USAGES
 ### Cài đặt GIT
 Vào trang chủ [Git](https://git-scm.com/) và cài đặt
 ### Cài đặt Node và NPM
