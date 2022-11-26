@@ -2,11 +2,11 @@
 ## CROWDFUNDING WEBSITE
 
 # MEMBER OF GROUP 9
-| MSSV       | HỌ VÀ TÊN     |
-| ---------- | ------------- |
-| 4501104129 | Lý Hoàng Long |
-| ---        | Thanh Trâm    |
-| ---        | Đức Huy       |
+| MSSV       | HỌ VÀ TÊN          |
+| ---------- | ------------------ |
+| 4501104129 | Lý Hoàng Long      |
+| 4501104250 | Cao Thị Thanh Trâm |
+| 4501104095 | Trần Đức Huy       |
 
 # INTRODUCING
 > Chủ đề này là xây dựng một nền tảng tài trợ đám đông tin cậy (crowdfunding application) bằng hợp đồng thông minh(smart contract)
